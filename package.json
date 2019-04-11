@@ -12,9 +12,13 @@
     "test": "nyc mocha test/setup.js '{,!(node_modules|coverage|docs)/**/}*.test.js' --color --no-timeouts"
   },
   "keywords": [
+    "aws",
+    "nosql",
+    "amazon",
     "dynogels",
     "DynamoDB",
-    "dynamodb"
+    "dynamodb",
+    "datamapper"
   ],
   "standard": {
     "env": [
