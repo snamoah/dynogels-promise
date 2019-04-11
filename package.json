@@ -8,6 +8,7 @@
     "pretest": "npm run lint",
     "prepush": "npm run test",
     "precommit": "lint-staged",
+    "prepublish": "npm run test",
     "lint": "standard --verbose --fix | snazzy",
     "test": "nyc mocha test/setup.js '{,!(node_modules|coverage|docs)/**/}*.test.js' --color --no-timeouts"
   },
