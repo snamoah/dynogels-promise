@@ -54,5 +54,8 @@
     "bluebird": "^3.5.4",
     "lodash": "^4.17.11",
     "uuid": "^3.3.2"
+  },
+  "peerDependencies": {
+    "joi": "^14.3.0"
   }
 }
