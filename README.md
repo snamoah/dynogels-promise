@@ -19,7 +19,7 @@ The projects is great, so decided to combine the both projects and deploy it as 
 
 ## Usage
 
-All methods available in [dynogels](https://github.com/clarke/dynogels) have been promisified and and can be assessed by appending `Async` to the methods
+All methods available in [dynogels](https://github.com/clarke/dynogels) have been promisified and and can be assessed under the same name
 
 ```javascript
 const dynogels = require('dynogels-promise')
@@ -35,8 +35,8 @@ const Todo = dynogels.define('Todo', {
 })
 
 //=> Create Todo
-const newTodo = await Todo.createAsync({ id: uuid(), content: 'Write this doc' })
+const newTodo = await Todo.create({ id: uuid(), content: 'Write this doc' })
 
 //=> Get a Todo item
-const todo = await Todo.getAsync('4549b30d-4a4a-4230-82d4-3286c9348d24')
+const todo = await Todo.get('4549b30d-4a4a-4230-82d4-3286c9348d24')
 ```
