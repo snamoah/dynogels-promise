@@ -21,6 +21,9 @@ The projects is great, so decided to combine the both projects and deploy it as 
 
 All methods available in [dynogels](https://github.com/clarke/dynogels) have been promisified and and can be assessed under the same name
 
+Also `Async` versions of the methods that were available in [dynogels-promisified](https://github.com/andrewoh531/dynogels-promisified) are also available for backward-compatibility. So you can replace dynogels-promisified with this package, and will still work perfectly.
+
+
 ```javascript
 const dynogels = require('dynogels-promise')
 
@@ -36,7 +39,9 @@ const Todo = dynogels.define('Todo', {
 
 //=> Create Todo
 const newTodo = await Todo.create({ id: uuid(), content: 'Write this doc' })
+const newTodo = await Todo.createAsync({ id: uuid(), content: 'Write this doc' }) // backward compatibility
 
 //=> Get a Todo item
 const todo = await Todo.get('4549b30d-4a4a-4230-82d4-3286c9348d24')
+const todo = await Todo.getAsync('4549b30d-4a4a-4230-82d4-3286c9348d24') // backward compatibility
 ```
