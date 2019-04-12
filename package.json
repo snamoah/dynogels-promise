@@ -1,6 +1,6 @@
 {
   "name": "dynogels-promise",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "Promisified dynogels module",
   "main": "lib/index.js",
   "scripts": {
