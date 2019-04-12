@@ -3,6 +3,11 @@
   "version": "1.0.11",
   "description": "Promisified dynogels module",
   "main": "lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/snamoah/dynogels-promise.git"
+  },
+  "homepage": "https://github.com/snamoah/dynogels-promise#readme",
   "scripts": {
     "commit": "git-cz",
     "pretest": "npm run lint",
