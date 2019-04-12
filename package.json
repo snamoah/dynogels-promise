@@ -44,7 +44,7 @@
     }
   },
   "author": "Samuel Amoah <sa.am@programmer.net>",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "chai": "^4.2.0",
     "chai-as-promised": "^7.1.1",
