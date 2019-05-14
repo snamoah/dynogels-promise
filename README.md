@@ -19,7 +19,7 @@ The projects is great, so decided to combine the both projects and deploy it as 
 
 ## Usage
 
-All methods available in [dynogels](https://github.com/clarke/dynogels) have been promisified and and can be assessed under the same name
+All methods available in [dynogels](https://github.com/clarkie/dynogels) have been promisified and and can be assessed under the same name
 
 Also `Async` versions of the methods that were available in [dynogels-promisified](https://github.com/andrewoh531/dynogels-promisified) are also available for backward-compatibility. So you can replace dynogels-promisified with this package, and will still work perfectly.
 
