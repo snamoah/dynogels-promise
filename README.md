@@ -6,7 +6,7 @@ This package was created for two main reasons:
 
 2. The promisified version, [dynogels-promisified](https://github.com/andrewoh531/dynogels-promisified) of that package also has outdated dependencies. The [PR](https://github.com/andrewoh531/dynogels-promisified/pull/5) submitted there is also almost a year.
 
-The projects is great, so decided to combine the both projects and deploy it as dynogels-promise
+The projects are great, so decided to combine the both projects and deploy it as dynogels-promise
 
 
 
