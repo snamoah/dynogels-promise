@@ -59,7 +59,7 @@
   },
   "dependencies": {
     "async": "2.6.2",
-    "aws-sdk": "2.751.0",
+    "aws-sdk": "2.868.0",
     "bluebird": "^3.5.4",
     "lodash": "^4.17.20",
     "uuid": "3.3.2"
