@@ -58,7 +58,7 @@
     "standard": "^12.0.1"
   },
   "dependencies": {
-    "async": "2.6.2",
+    "async": "2.6.4",
     "aws-sdk": "2.868.0",
     "bluebird": "^3.5.4",
     "lodash": "^4.17.20",
